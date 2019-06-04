@@ -13,7 +13,7 @@
               </nuxt-link>
             </small>
           </h4>
-          <div>{{item.body.slice(0, 130)}}・・・・</div>
+          <div>{{item.body.slice(0, 130)}}・・・</div>
           <p><a target="_blank" :href="item.url">{{item.url}}</a></p>
         </li>
       </ul>
