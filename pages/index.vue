@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <div>
-      <h3>Nuxt.js のタグが付けられた投稿の一覧</h3>
+      <h3>Nuxt.js のタグが付けられた投稿一覧</h3>
       <ul>
         <li v-for="item in items" :key="item.id">
           <h4>
@@ -23,12 +23,11 @@
 
 <script>
 export default {
-  // async mounted() {
-  //   console.log(
-  //     JSON.stringify(await
-  //     this.$axios.$get('https://qiita.com/api/v2/items?query=tag:nuxt.js'), true, ' ')
-  //   )
-  // }
+  head() {
+    return {
+      title: 'トップページ'
+    }
+  },
   async asyncData({ app }) {
     const items = await app.$axios.$get('https://qiita.com/api/v2/items?query=tag:nuxt.js')
     return {
