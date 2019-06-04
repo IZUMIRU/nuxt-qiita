@@ -34,20 +34,20 @@ export default {
   },
   async asyncData({ route, store, redirect }) {
     if (store.getters['users'][route.params.id]) {
-      return
+      return;
     }
     try {
-      await store.dispatch('fetchUserInfo', { id: route.params.id })
-    } catch(e) {
-      redirect('/') // 簡易的なエラー処理として 404 を想定してリダイレクト
+      await store.dispatch('fetchUserInfo', { id: route.params.id });
+    } catch (e) {
+      redirect('/'); // 簡易的なエラー処理として 404 を想定してリダイレクト
     }
   },
   computed: {
     user() {
-      return this.users[this.$route.params.id]
+      return this.users[this.$route.params.id];
     },
     items() {
-      return this.userItems[this.$route.params.id] || []
+      return this.userItems[this.$route.params.id] || [];
     },
     ...mapGetters(['users', 'userItems'])
   }
@@ -56,7 +56,7 @@ export default {
   //   const items = await app.$axios.$get(`https://qiita.com/api/v2/items?query=user:${route.params.id}`)
   //   return { user, items }
   // }
-}
+};
 </script>
 
 <style scoped>

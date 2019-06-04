@@ -30,7 +30,7 @@ export default {
       title: 'トップページ'
     }
   },
-  async asyncDate({ store }) {
+  async asyncData({ store }) {
     if (store.getters['items'].length) {
       return
     }
@@ -45,7 +45,7 @@ export default {
   //     items
   //   }
   // }
-}
+};
 </script>
 
 <style>
