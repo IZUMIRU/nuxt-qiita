@@ -3,6 +3,8 @@
 - Nuxt.js ビギナーズガイド(https://nuxt-beginners-guide.elevenback.jp/examples/my-first-nuxt-app.html)
 - Qiita API と連携したアプリケーション
 
+- https://nuxt-qiita.netlify.com/
+
 ![0fcffaf9c190f0e3fedc9d4ab30be234](https://user-images.githubusercontent.com/11635641/58920535-9a372100-876d-11e9-81e6-658d128d6cad.gif)
 
 # nuxt-qiita
