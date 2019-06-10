@@ -1,9 +1,9 @@
 # Summary
 
 - [Nuxt.js ビギナーズガイド](https://nuxt-beginners-guide.elevenback.jp/examples/my-first-nuxt-app.html)
-- [Qiita API と連携したアプリケーション](https://nuxt-qiita.netlify.com/)
 
-![0fcffaf9c190f0e3fedc9d4ab30be234](https://user-images.githubusercontent.com/11635641/58920535-9a372100-876d-11e9-81e6-658d128d6cad.gif)
+- [Qiita API と連携したアプリケーション](https://nuxt-qiita.netlify.com/)
+![Qiita API と連携したアプリケーション](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/105093/ac8fd155-093c-7ec8-3396-354e1f01acab.gif)
 
 # nuxt-qiita
 
